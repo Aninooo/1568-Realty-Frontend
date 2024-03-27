@@ -8,8 +8,8 @@ import Sidebar from "../../components/Sidebar";
 import { createColumnHelper } from "@tanstack/react-table";
 
 const tableData = [
-  { row: "1", contactnumber: "09069462736", email: "ninaraphaella@gmail.com", action: "images/img_dropdown.svg" },
-  { row: "2", contactnumber: "09069462736", email: "clarence@gmail.com", action: "images/img_dropdown.svg" },
+  { row: "1", contactnumber: "09069462736", email: "karlbernaldez@gmail.com", action: "images/img_dropdown.svg" },
+  { row: "2", contactnumber: "09069462736", email: "bryanlomerioanino@gmail.com", action: "images/img_dropdown.svg" },
 ];
 
 export default function AgentsPage() {
@@ -80,7 +80,6 @@ export default function AgentsPage() {
   return (
     <>
       <Helmet>
-        <title>Bryan's Application1</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
       <div className="flex md:flex-col items-start w-full gap-6 bg-gray-100">
